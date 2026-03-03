@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para estudo de arquitetura de microserviços com Spring Boot e Docker.
 
-Arquitetura
+**Arquitetura**
 
 O sistema é composto por dois microsserviços:
 
@@ -12,7 +12,7 @@ payment-service → Responsável pelo processamento de pagamentos
 
 O order-service se comunica com o payment-service via HTTP utilizando RestTemplate.
 
-Tecnologias Utilizadas:
+**Tecnologias Utilizadas:**
 
 -Java 17
 
@@ -28,7 +28,7 @@ Tecnologias Utilizadas:
 
 -Docker Compose
 
-Arquitetura Aplicada:
+**Arquitetura Aplicada:**
 
 -Facade Pattern
 
@@ -40,7 +40,7 @@ Arquitetura Aplicada:
 
 -Comunicação entre serviços via REST
 
-Como executar com Docker:
+**Como executar com Docker:**
 
 Na raiz do projeto:
 
@@ -65,4 +65,5 @@ Exemplo de requisição:
 **Objetivo**
 
 Projeto criado para prática de arquitetura distribuída e containerização.
+
 
